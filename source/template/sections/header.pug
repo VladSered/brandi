@@ -1,0 +1,28 @@
+-var linkItems = ['twitter', 'facebook', 'google-plus', 'dribbble']
+-var linkUrls = ['twitter.com', 'facebook.com', 'google.com', 'dribbble.com']
+section.hero
+	header.header
+		.header__top
+			.container
+				.header__top__nav
+					span.logo Brandi
+						span.tag  I	'am your tag line
+					include nav.pug
+		p.hero__about Meet
+			span.hero__brand  Brandi
+		p.about__site /creative
+			span.template one page template.
+		p.about__us We are a team of profeccionals
+		.social__links
+			each item, key in linkItems
+				a(href="http://" + linkUrls[key] target="_blank")
+					i(class="fa fa-" + item aria-hidden="true")
+						span.visually-hidden=linkItems
+	.slider-wrap
+		#some-slider-three.owl-carousel.owl-theme
+			.slide
+				.slide-bg-one 
+			.slide
+				.slide-bg-two 
+			.slide
+				.slide-bg-three 

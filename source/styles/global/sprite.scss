@@ -1,0 +1,189 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$arrowright-name: 'arrowright';
+$arrowright-x: 91px;
+$arrowright-y: 80px;
+$arrowright-offset-x: -91px;
+$arrowright-offset-y: -80px;
+$arrowright-width: 18px;
+$arrowright-height: 13px;
+$arrowright-total-width: 120px;
+$arrowright-total-height: 118px;
+$arrowright-image: '../images/sprite.png';
+$arrowright: (91px, 80px, -91px, -80px, 18px, 13px, 120px, 118px, '../images/sprite.png', 'arrowright', );
+$arrowright2-name: 'arrowright2';
+$arrowright2-x: 71px;
+$arrowright2-y: 80px;
+$arrowright2-offset-x: -71px;
+$arrowright2-offset-y: -80px;
+$arrowright2-width: 20px;
+$arrowright2-height: 15px;
+$arrowright2-total-width: 120px;
+$arrowright2-total-height: 118px;
+$arrowright2-image: '../images/sprite.png';
+$arrowright2: (71px, 80px, -71px, -80px, 20px, 15px, 120px, 118px, '../images/sprite.png', 'arrowright2', );
+$clock-name: 'clock';
+$clock-x: 0px;
+$clock-y: 0px;
+$clock-offset-x: 0px;
+$clock-offset-y: 0px;
+$clock-width: 40px;
+$clock-height: 40px;
+$clock-total-width: 120px;
+$clock-total-height: 118px;
+$clock-image: '../images/sprite.png';
+$clock: (0px, 0px, 0px, 0px, 40px, 40px, 120px, 118px, '../images/sprite.png', 'clock', );
+$cup-name: 'cup';
+$cup-x: 80px;
+$cup-y: 40px;
+$cup-offset-x: -80px;
+$cup-offset-y: -40px;
+$cup-width: 40px;
+$cup-height: 38px;
+$cup-total-width: 120px;
+$cup-total-height: 118px;
+$cup-image: '../images/sprite.png';
+$cup: (80px, 40px, -80px, -40px, 40px, 38px, 120px, 118px, '../images/sprite.png', 'cup', );
+$eye-name: 'eye';
+$eye-x: 40px;
+$eye-y: 0px;
+$eye-offset-x: -40px;
+$eye-offset-y: 0px;
+$eye-width: 40px;
+$eye-height: 40px;
+$eye-total-width: 120px;
+$eye-total-height: 118px;
+$eye-image: '../images/sprite.png';
+$eye: (40px, 0px, -40px, 0px, 40px, 40px, 120px, 118px, '../images/sprite.png', 'eye', );
+$feather-name: 'feather';
+$feather-x: 0px;
+$feather-y: 40px;
+$feather-offset-x: 0px;
+$feather-offset-y: -40px;
+$feather-width: 40px;
+$feather-height: 40px;
+$feather-total-width: 120px;
+$feather-total-height: 118px;
+$feather-image: '../images/sprite.png';
+$feather: (0px, 40px, 0px, -40px, 40px, 40px, 120px, 118px, '../images/sprite.png', 'feather', );
+$friends-name: 'friends';
+$friends-x: 0px;
+$friends-y: 80px;
+$friends-offset-x: 0px;
+$friends-offset-y: -80px;
+$friends-width: 38px;
+$friends-height: 38px;
+$friends-total-width: 120px;
+$friends-total-height: 118px;
+$friends-image: '../images/sprite.png';
+$friends: (0px, 80px, 0px, -80px, 38px, 38px, 120px, 118px, '../images/sprite.png', 'friends', );
+$megaphone-name: 'megaphone';
+$megaphone-x: 40px;
+$megaphone-y: 40px;
+$megaphone-offset-x: -40px;
+$megaphone-offset-y: -40px;
+$megaphone-width: 40px;
+$megaphone-height: 40px;
+$megaphone-total-width: 120px;
+$megaphone-total-height: 118px;
+$megaphone-image: '../images/sprite.png';
+$megaphone: (40px, 40px, -40px, -40px, 40px, 40px, 120px, 118px, '../images/sprite.png', 'megaphone', );
+$pencil-name: 'pencil';
+$pencil-x: 80px;
+$pencil-y: 0px;
+$pencil-offset-x: -80px;
+$pencil-offset-y: 0px;
+$pencil-width: 40px;
+$pencil-height: 40px;
+$pencil-total-width: 120px;
+$pencil-total-height: 118px;
+$pencil-image: '../images/sprite.png';
+$pencil: (80px, 0px, -80px, 0px, 40px, 40px, 120px, 118px, '../images/sprite.png', 'pencil', );
+$rocket-name: 'rocket';
+$rocket-x: 38px;
+$rocket-y: 80px;
+$rocket-offset-x: -38px;
+$rocket-offset-y: -80px;
+$rocket-width: 33px;
+$rocket-height: 33px;
+$rocket-total-width: 120px;
+$rocket-total-height: 118px;
+$rocket-image: '../images/sprite.png';
+$rocket: (38px, 80px, -38px, -80px, 33px, 33px, 120px, 118px, '../images/sprite.png', 'rocket', );
+$spritesheet-width: 120px;
+$spritesheet-height: 118px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($arrowright, $arrowright2, $clock, $cup, $eye, $feather, $friends, $megaphone, $pencil, $rocket, );
+$spritesheet: (120px, 118px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

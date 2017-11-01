@@ -1,0 +1,11 @@
+.works {
+    padding: 100px 0 37px 0;
+    text-align: center;
+   
+    &__description {
+        font-family: $ff-nav;
+        margin: 35px 120px 0px 120px;
+        font-size: 1.125rem;
+        color: rgba(6, 32, 51, 0.8);
+    }
+}

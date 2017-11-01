@@ -1,0 +1,24 @@
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+@import "node_modules/normalize.scss/normalize.scss";
+
+@import "source/styles/global/fonts.scss";
+@import "source/styles/global/mixin.scss";
+@import "source/styles/global/vars.scss";
+@import "source/styles/global/base.scss";
+@import "source/styles/global/common.scss";
+@import "source/styles/global/sprite.scss";
+
+@import "source/styles/sections/title.scss";
+@import "source/styles/sections/header.scss";
+@import "source/styles/sections/nav.scss";
+@import "source/styles/sections/features.scss";
+@import "source/styles/sections/owl.carousel.scss";
+@import "source/styles/sections/owl.theme.default.scss";
+@import "source/styles/sections/icons.scss";
+@import "source/styles/sections/works.scss";
+@import "source/styles/sections/workimages.scss";
+@import "source/styles/sections/ourteam.scss";
+@import "source/styles/sections/fact.scss";
+@import "source/styles/sections/discuss.scss";
+@import "source/styles/sections/map.scss";
+@import "source/styles/sections/footer.scss";

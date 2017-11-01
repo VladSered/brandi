@@ -1,0 +1,121 @@
+.discuss {
+    padding: 100px 0 0 0;
+}
+.discuss-discription {
+    font-size: 18px;
+    font-family: $ff-nav;
+    color: rgba(6, 32, 51, 0.8);
+    line-height: 1.333;
+    margin-bottom: 80px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+
+    &__title {
+            font-size: 24px;
+            font-family: $ff-nav;
+            color: rgb(6, 32, 51);
+            font-weight: bold;
+            line-height: 1;
+    }
+
+    &__place {
+        width: 270px;
+    }
+    
+    &__area {
+        width: 770px;
+    }
+    
+    &__social {
+        display: block;
+        list-style: none;
+    }
+
+    &__links {
+        margin: 30px 16px 0px 0px;
+        
+    }
+
+    &__icon i {
+        font-size: 20px;
+        margin-top: 10px;
+        color: rgba(205, 210, 214, 1);
+
+        &:hover {
+            color: rgba(33, 117, 102, 1);
+        }
+    }
+
+    &__input {
+        outline: 0 !important;
+        border: none;
+        border-bottom: 1px solid rgba(91, 100, 110, 0.502);
+        font-size: 13px;
+        font-family: $ff-nav;
+        color: rgba(91, 100, 110, 0.502);
+        line-height: 1.846;
+        padding-bottom: 10px;
+    }
+    
+    &__input.name {
+        width: 370px;
+        
+    }
+    &__input.mail {
+        width: 370px;
+        margin-left: 25px;
+    }
+    &__input.message {
+        width: 769px;
+        margin-top: 20px;
+    }
+}
+.place-title {
+    font-size: 22px;
+    font-family: $ff-tag;
+    color: rgb(6, 32, 51);
+    line-height: 1.455;
+    text-align: left;
+}
+
+.place-discription {
+    width: 170px;
+    color: #adb2b6;
+    font-size: 14px;
+    font-family: $ff-tag;
+}
+.icon-envelope-alt {
+    width: 20px;
+    height: 20px;
+}
+.send-m {
+    float: right;
+    margin-top: 10px;
+    border: none;
+    background: #ffffff;
+    outline: 0 !important;
+}
+.icon-s {
+    color: rgb(14, 180, 147);
+    font-size: 21px;
+    vertical-align: middle;
+}
+.text-s {
+    font-size: 16px;
+    font-family: $ff-hero;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    padding-left: 12px;
+    vertical-align: middle;
+}  
+
+::-webkit-input-placeholder {color:rgba(91, 100, 110, 0.502);}
+::-moz-placeholder          {color:rgba(91, 100, 110, 0.502);}
+:-moz-placeholder           {color:rgba(91, 100, 110, 0.502);}
+:-ms-input-placeholder      {color:rgba(91, 100, 110, 0.502);}
+

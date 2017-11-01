@@ -1,0 +1,34 @@
+-var linkItems = ['behance', 'twitter', 'dribbble', 'tree', 'google-plus', ]
+-var linkUrls = ['behance.net', 'twitter.com', 'dribbble.com', 'forrst.com', 'google.com']
+section.discuss
+    .container
+        .title
+            h2.title.title__header Let's Discuss
+            .title--with-bottom-line
+                i(class="fa fa-heart-o" aria-hidden="true")
+            p.discuss-discription 
+                | Voluptatem accusantium doloremque laudantium, 
+                | totam rem aperiam, eaque ipsa quae ab illo inventore
+        .form
+            .form__place
+                h3.place-title Cras at ultrices erat, sed vulputate!
+                p.place-discription   2345 Setwant natrer, 1234, 
+                    | Washington. United States. (401) 1234 567 hello@brandi.com www.brandi.com
+            .form__area
+                h3.form__title Say hello!
+                form(action="#" method="post")
+                    .form__field
+                        input.form__input.name(type="text" placeholder="Name")
+                        input.form__input.mail(type="text" placeholder="Email")
+                        input.form__input.message(type="text" placeholder="Message")
+                        button.send-m(type="submit" value="link")
+                            i.icon-s.fa.fa-envelope-o
+                            span.text-s Send Message 
+            .form__social
+                .form__links
+                    each item, key in linkItems
+                        li.form__icon
+                            a(href="http://" + linkUrls[key] target="_blank")
+                                i(class="fa fa-" + item aria-hidden="true")
+                                    span.visually-hidden=linkItems
+    include map.pug 

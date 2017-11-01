@@ -1,0 +1,48 @@
+.nav {
+    font-family: $ff-nav;
+    font-size: 0.8125rem;
+
+    @media (max-width: 1230px) {
+        margin-right: 25px;
+    }
+    @media (max-width: 750px) {
+        margin-bottom: 15px;
+    }
+}
+
+.nav__link {
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    margin-left: 35px;
+
+    &:first-child {
+        margin-left: 0px;
+    }
+
+    &:after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-top: 2px solid rgb(50, 176, 238);
+        margin-bottom: 43px;
+        content: '';
+        transform: scaleX(0);
+        opacity: 1;
+        transition: all .4s linear;
+        
+        @media (max-width: 750px) {
+            margin-bottom: -3px;
+        }
+    }
+    &:hover:after {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+.nav__link--active:after {
+    transform: scaleX(1);
+    opacity: 1;
+}

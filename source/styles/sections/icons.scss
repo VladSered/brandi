@@ -1,0 +1,24 @@
+.icon {
+    // margin-right: 20px;
+}
+.icon-feather {
+    @include sprite($feather);
+}
+.icon-pencil {
+    @include sprite($pencil);
+}
+.icon-megaphone {
+    @include sprite($megaphone);
+}
+// .icon-clock {
+//     @include sprite($clock);
+// }
+// .icon-friends {
+//     @include sprite($friends);
+// }
+// .icon-rocket {
+//     @include sprite($rocket);
+// }
+// .icon-cup {
+//     @include sprite($cup);
+// }

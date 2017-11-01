@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    // font-family: $ff-main;
+    font-size: 16px;
+    line-height: 1.2;
+}
+ul,
+ol {
+    list-style: none;
+}
+.clearfix {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}

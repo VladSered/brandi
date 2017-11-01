@@ -1,0 +1,187 @@
+.header {
+    position: relative;
+    left: 0; 
+    right: 0;
+    z-index: 2;
+    
+    &__top {
+        width: 100%;
+        background-color: rgba(16, 22, 54, 0.2);
+    }
+    
+    &__top__nav {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px 0px 10px;
+    
+        @media (max-width: 750px) {
+            flex-direction: column;
+        }
+    }
+    
+}
+
+  
+.hero {
+    text-align: center;
+
+    &__about {
+        font-size: 3.870rem;
+        font-family: $ff-hero;
+        color: rgb(255, 255, 255);
+        margin: 385px 0 0 0;
+
+        @media (max-width: 750px) {
+            margin: 320px 0 0 0;
+        }
+    }
+
+    &__brand {
+        font-size: 3.870rem;
+        font-family: $ff-nav;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+
+        &:after {
+            content: '!';
+            font-size: 3.870rem;
+            font-family: $ff-hero;
+        }   
+    }
+}
+#some-slider-three {
+    position: absolute;
+    top: 0;
+
+    .slide-bg-one {
+        background: url('../images/header_bottom.png') center/cover no-repeat;
+        height: 800px;
+    }
+    .slide-bg-two {
+        background: url('../images/header_bottom_two.png') center/cover no-repeat;
+        height: 800px;
+    }
+    .slide-bg-three {
+        background: url('../images/header_bottom_three.png') center/cover no-repeat;
+        height: 800px;
+    }
+}
+.slider-wrap
+.owl-theme .owl-dots  {
+    position: absolute;
+    top: 345px;
+    right: 0;
+    z-index: 3;
+    margin-right: 15px;
+
+    .owl-dot {
+        display: block;
+        
+        span {
+            width: 8px;
+            height: 8px;
+            margin: 10px 7px;
+            background: #050507;
+            display: block;
+            -webkit-backface-visibility: visible;
+            transition: opacity 200ms ease;
+            border: 1px solid #383838;
+            border-radius: 30px;
+        }
+    }
+    .owl-dot.active span,
+    .owl-dot:hover span {
+        background: #ffffff;
+    }
+}
+
+
+.template {
+    font-size: 48px;
+    font-family: $ff-hero;
+    color: rgb(255, 255, 255);
+}
+.about__site {
+    font-size: 48px;
+    font-family: $ff-hero;
+    color: rgba(15, 235, 158, 0.902);
+    margin: 5px 0;
+}
+
+.about__us {
+    font-size: 18px;
+    position: relative;
+    font-family: $ff-hero;
+    color: rgba(255, 255, 255, 0.902);
+    
+    
+    
+    &:before {
+        @include centerer-y();
+
+        content: ' ';
+        height: 1px;
+        width: 28px;
+        left: calc(50% - 165px);
+        background: rgba(15, 235, 158, 0.902);
+    }
+
+    &:after {
+        @include centerer-y();
+
+        content: ' ';
+        height: 1px;
+        width: 28px;
+        right: calc(50% - 165px);
+        background: rgba(15, 235, 158, 0.902);
+    }
+}
+
+.social__links {
+    margin-top: 112px;
+
+    .fa {
+        font-size: 1rem;
+        margin-right: 15px;
+        color: #90948f;
+
+        &:hover {
+            color: rgba(255, 255, 255, 1);
+            transform:scale(1.5);
+        }
+    }
+}
+.logo {
+    font-family: $ff-logo;
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    @media (max-width: 1230px) {
+        margin-left: 25px;
+    }
+    @media (max-width: 750px) {
+        margin-bottom: 20px;
+    }
+}
+
+.tag {
+    font-family: $ff-tag;
+    position: relative;
+    bottom: 3px;
+    font-size: 1rem;
+    padding: 10px;
+    color: rgba(50, 176, 238, 0.302);
+    z-index: 1;
+
+    &:before {
+        content: ' ';
+        height: 17px;
+        background: rgba(50, 176, 238, 0.302);
+        margin: 0px 15px 0px 5px;
+    }
+}
+
+  
